@@ -1,0 +1,25 @@
+// N- Null
+// N- Number
+// B- Boolean
+// B- BigInt
+// S- Symbol
+// S- String
+// U- undefined
+
+let a = null;
+let b = 22;
+let c = true;
+let d = BigInt("232");
+let e = "Dhruv";
+let f = Symbol("I am a nic symbol");
+let g = undefined ;
+console.log(a,b,c,d,e,f,g);
+console.log(typeof d)
+
+//non primitive data types which means objects in js
+const items = {
+    "dhruv": true,
+    "deepanshi": false
+}
+console.log(items["dhruv"])
+console.log(items["deepanshi"]);
