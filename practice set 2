@@ -1,0 +1,35 @@
+//question1
+// let age = prompt("hey whats your age?")
+
+// if(age > 10 && age < 20){
+    
+// console.log("The age is " + age);
+// }
+// else{
+//     console.log("The age is dont lies between 10 and 20")
+// }
+
+//question2
+// let age = prompt("what is youra age");
+// switch (age) {
+//     case 1:
+//         console.log("your age is 1");
+//     case 2:
+//         console.log("your age is 2");
+//     case 3:
+//         console.log("your age is 3");
+//     default:
+//         console.log("your age is not special");
+// }
+
+
+//question3
+
+// let num = prompt("what ypur age?");
+// num = Number.parseInt(num);
+// if(num%2 == 0 && num%3 == 0){
+//     console.log("your no is divisible by 2 and 3");
+// }
+// else{
+//     console.log("your no is not divisible by 2 and 3")
+// }
