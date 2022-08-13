@@ -1,0 +1,61 @@
+//functions
+
+// function onePlusAvg(x,y){
+//     console.log("done");
+
+//     return 1 + (x+y)/2
+
+// }
+// let a = 1;
+// let b = 2;
+// let c = 3;
+
+// console.log("The Average of onePlusAvg is  ", onePlusAvg(a,b))
+// console.log("The Average of onePlusAvg is  ", onePlusAvg(b,c))
+// console.log("The Average of onePlusAvg is  ", onePlusAvg(c,a) )
+
+//round off
+
+// function onePlusAvg(x , y){
+//     console.log("done");
+//     return Math.round(1 + (x+y)/2);
+// }
+
+//     let a = 1;
+//     let b = 2;
+//     let c = 3;
+
+// console.log("one Plus average is " , onePlusAvg(a,b))
+// console.log("one Plus average is " , onePlusAvg(b,c))
+// console.log("one Plus average is " , onePlusAvg(a,c))
+
+//2nd way of creatong function using const
+
+// function onePlusAvg(x , y){
+//     console.log("done");
+//     return 1 + (x+y)/2;
+// }
+
+// const sum = (p,q) =>{
+//     return p+q;
+
+// }
+
+//     let a = 1;
+//     let b = 2;
+//     let c = 3;
+
+// console.log("one Plus average is " , onePlusAvg(a,b))
+// console.log("one Plus average is " , onePlusAvg(b,c))
+// console.log("one Plus average is " , onePlusAvg(a,c))
+// console.log("the sum is " , sum(9,8))
+
+
+//hm vo functions lo bhi call kar skte hai jo sirf lete ho kuch dete na ho and vica versa
+
+const hello =()  => {
+    console.log("Hi")
+    return "How are you";
+}
+let v = hello();
+console.log(v);
