@@ -1,0 +1,19 @@
+// let name = "Harry";
+// console.log(name.length)
+// let friend = 'Prakash'
+// console.log(friend)
+// let myFriend = "shubh"
+// console.log(myFriend)
+
+//template literals
+// `{}  {}`
+
+// let boy1 = "pramod"
+// let boy2 = "nikhil"
+// // nikhil is friend of pramod
+// let sentence =`${boy1} is a friend of ${boy2}`
+// console.log(sentence)
+
+let fruit = 'bana\'na'
+console.log(fruit)
+console.log(fruit.length)
