@@ -1,0 +1,59 @@
+// for loops
+// for in loop
+// for of loop
+// while loop
+// do while loop
+
+// for(let i = 0; i< 34; i++){
+//     console.log(i);
+// }
+
+
+//sum of first n natural no
+// let sum = 0
+// let n = prompt("enter the valur of n")
+// n - Number.parseInt(n)
+// for(let  i = 0; i<n; i++){
+//     sum += (i+1)
+//     console.log(i+1)
+// }
+// console.log("sum of first" + n + "natural numbers is " + sum)
+
+
+// for in loop
+// let obj = {
+//     harry: 90,
+//     shubh: 45,
+//     shivika: 56,
+// }
+// for (let a in obj){
+//     console.log(a)
+// }
+
+// print through calling object
+// let obj = {
+//     harry: 90,
+//     shubh: 45,
+//     shivika: 56,
+// }
+
+//     console.log(obj);
+
+
+// for of loops
+let obj = {
+    harry: 90,
+    shubh: 45,
+    shivika: 56,
+}
+for (let a in obj){
+    console.log("Marks of " + a + " are " + obj[a])
+}
+
+for (let b of "dhruv"){
+    console.log(b)
+}
+
+
+
+
