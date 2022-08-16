@@ -1,0 +1,28 @@
+// let marks = [12,3,44,5,6,null,false,"not Present"]
+// console.log(marks)
+// delete marks[0];
+// console.log(marks)
+
+// let num = [12,32,44,52,26,null,false,"not Present"]
+// console.log(num.length)
+// delete num[0];
+// console.log(num.length)
+
+
+//concat
+// let newArray = num.concat(marks, num)
+// console.log(newArray)
+// console.log(marks, num)
+
+// sort
+// num.sort()
+// console.log(num)
+
+//compare
+
+let compare = (a,b) =>{
+    return a-b
+}
+let num = [22,33,44,33,22,44,55]
+num.sort()
+console.log(num)
