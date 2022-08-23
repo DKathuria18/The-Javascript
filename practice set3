@@ -1,0 +1,50 @@
+// let marks = {
+//     harry: 98,
+//     Rohan: 70,
+//     Aaksah: 7,
+// }
+//problem 1
+// for (let i = 0; i < Object.keys(marks).length ; i++){
+//     console.log("The marks of " +  Object.keys (marks) [i] + marks [Object.keys (marks) [i]] )
+
+// }
+
+//problem 2
+// for (let marks2 in marks){
+//     console.log("The marks of " + marks2 + " are " + marks[marks2])
+// }
+
+//problem 3
+// this is my in own way
+
+// let number = 10;
+// console.log("The final number is " + number)
+
+
+// for ( i = 0 ; i < 11 ; i++){
+//     console.log( " no is ", i )
+
+//     if( i == 10){
+//         console.log("we got the final number ")
+//         }
+//         else{
+//             console.log("try again")
+//         }
+    
+// }
+
+
+//code with harry
+// let currentNumber = 3;
+// let i 
+// while( i != currentNumber){
+//     i = prompt("enter a no")
+// }
+
+
+// problem 4
+const mean = (a,b,c,d) =>{
+    return (a+b+c+d)/4;
+}
+
+console.log(mean(1,2,3,4))
