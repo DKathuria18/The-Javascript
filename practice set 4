@@ -1,0 +1,7 @@
+let str = "har\"";
+console.log(str.length)
+
+const sentence = " The Quick brown fox jumps over the lazy dog.";
+const word = 'fox2';
+console.log(sentence.includes(word))
+console.log(`Thw word "${word}" ${sentence.includes(word)? 'is' : 'is not'} in the sentence`);
