@@ -1,0 +1,54 @@
+// es6    
+// rest and spread operator 
+
+//rest operator
+// function addNumbers(a,b,c,...other){
+// console.log(other)
+// console.log("The no at index 0 is " + other[1])
+// return a + b + c;
+
+// }
+
+// const res = addNumbers(1,2,3,9,8,3,4,5,6,7)
+// console.log("The sum of 3 no are " + res)
+
+// in this we have so many no but we have to add onely 3 no and also show the oter tat are present in array so we use ...other to show the no that are left and also we cans how te single no by using index of array.
+
+
+
+//Spred operator = opposite of rest operator
+
+// var names = ["dhruv", "deepanshi", "dhiraj","lsjjde"];
+
+// function getNames(name1,name2,name3){
+//     console.log(name1,name2,name3);
+// }
+// getNames(names[0],names[1],names[2],names[3]); // Spread operator spreading all the names 
+// getNames(...names)
+// getNames(names)
+
+
+// object ke saath      
+// Array destructuring
+// Rest
+
+var students ={
+    name:"dhruv",
+    age:"21"
+}
+
+// const age = console.log(students.age);
+// const {age,name} = students; //This is known as array desctructuring 
+// console.log(age)
+// console.log(name)
+
+// const {...rest} = students; 
+// console.log(rest);
+
+
+//spread
+var newStduent = {
+    ...students,
+    age: "37"
+}
+console.log(newStduent);
