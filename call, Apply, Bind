@@ -1,0 +1,92 @@
+// Apply call and bind function in js     
+
+//problem statement
+// let userDetails ={
+//     name: "John",
+//     age: "21",
+//     deignations: "software developer",
+//     printDetails: function(){
+   
+//         console.log(this.name)
+//     }
+
+// }
+// userDetails.printDetails();
+
+
+
+// let userDetails2 ={
+//     name: "Druv",
+//     age: "27",
+//     deignations: "software developer",
+    
+//     }
+
+// function borrow 
+// userDetails.printDetails.call(userDetails2)
+// we have to write obejctname of first object and than .call and than object name of second objec to call a function from the pervious object so tat we dont have to write function again and again.
+
+
+
+
+//This is the second method call a function if function is not present in any of the obeject than we can do this . we do not have to call any object. we only have to write a function name and than .call and than object
+// let userDetails ={
+//     name: "John",
+//     age: "21",
+//     deignations: "software developer",
+    
+// }
+// let printDetails =  function(){
+//       console.log(this.name)
+// }
+// printDetails.call(userDetails);
+
+
+// let userDetails2 ={
+//     name: "Druv",
+//     age: "27",
+//     deignations: "software developer",
+    
+//     }
+ 
+//     printDetails.call(userDetails2)
+
+
+
+
+//This keyword ko hm isliye use karte hai taaki vo ek object ko point kar paaye or use obejct ke andar jitni bhi cheeze padi hui hai unko dikha de or we xan say that we can also call it as self referncing operator which call the present object in which we can call
+
+
+
+let userDetails ={
+    name: "John",
+    age: "21",
+    deignations: "software developer",
+    
+}
+let printDetails =  function(state,country){
+      console.log(this.name+" "+state+" "+country+" ")
+}
+printDetails.call(userDetails,"Delhi","India");
+
+
+let userDetails2 ={
+    name: "Druv",
+    age: "27",
+    deignations: "software developer",
+    
+    }
+ 
+    printDetails.call(userDetails2,"Delhi","India")
+
+
+    //apply
+    printDetails.apply(userDetails,["delhi","indore"])
+    printDetails.apply(userDetails2,["Patna","indore"])
+
+    //bind
+    let newFun = printDetails.bind(userDetails,"Delhi","india")
+    newFun()
+    //apply main dehine karne ke liye kuch ni karna bs function ka naam likh ke usme array list laga do or jo bhi parameter hai unke values likh do 
+
+//if we foragot to add any any thing in the obejct so we can add directly t in the calling function by defining parameter in that
